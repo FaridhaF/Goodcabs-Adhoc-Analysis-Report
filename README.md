@@ -164,3 +164,21 @@ FROM cte2)
 SELECT city_name,new_passengers,city_category FROM cte3'''
 </pre>
 **Report**
+| City Name      | New Passengers | City Category |
+|----------------|----------------|---------------|
+| Jaipur         | 45,856         | Top 3         |
+| Kochi          | 26,416         | Top 3         |
+| Chandigarh     | 18,908         | Top 3         |
+| Lucknow        | 16,260         | NULL          |
+| Indore         | 14,863         | NULL          |
+| Visakhapatnam  | 12,747         | NULL          |
+| Mysore         | 11,681         | NULL          |
+| Surat          | 11,626         | Bottom 3      |
+| Vadodara       | 10,127         | Bottom 3      |
+| Coimbatore     | 8,514          | Bottom 3      |
+
+# Business Request-5: Identify Month with Highest Revenue for each City
+**Query**
+<pre>
+
+</pre>
