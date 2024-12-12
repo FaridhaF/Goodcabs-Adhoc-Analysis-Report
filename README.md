@@ -240,4 +240,17 @@ SELECT *,
 	   CONCAT(ROUND(repeat_passengers*100/SUM(total_passengers) OVER (PARTITION BY city_name),1),"%") AS city_repeat_passenger_rate 
 FROM monthly_repeat_passengers'''	
 </pre>
-**Report**
+**Sample Report**
+| City Name      | Month     | Total Passengers | Repeat Passengers | Monthly Repeat Passenger Rate | City Repeat Passenger Rate |
+|----------------|-----------|------------------|-------------------|-------------------------------|----------------------------|
+| Chandigarh     | February  | 4,957            | 853               | 17.2%                         | 3.6%                       |
+| Chandigarh     | January   | 4,640            | 720               | 15.5%                         | 3.0%                       |
+| Chandigarh     | March     | 4,100            | 872               | 21.3%                         | 3.6%                       |
+| Chandigarh     | April     | 3,285            | 789               | 24.0%                         | 3.3%                       |
+| Chandigarh     | May       | 3,699            | 969               | 26.2%                         | 4.0%                       |
+| Chandigarh     | June      | 3,297            | 867               | 26.3%                         | 3.6%                       |
+| Coimbatore     | June      | 1,628            | 402               | 24.7%                         | 3.6%                       |
+| Coimbatore     | April     | 1,722            | 480               | 27.9%                         | 4.3%                       |
+| Coimbatore     | March     | 1,965            | 427               | 21.7%                         | 3.9%                       |
+
+**Reprt Link** 
