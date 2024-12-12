@@ -42,6 +42,7 @@ SELECT city_name,
        ROUND((total_fare/total_trips),2) AS avg_fare_per_trip,
        CONCAT(ROUND(total_trips*100/SUM(total_trips) OVER(),1),"%") AS percent_contribution_to_totaltrips
 FROM cte1'''
+**Report**
 </pre>
 | City Name      | Total Trips | Avg Fare per Km | Avg Fare per Trip | Percent Contribution to Total Trips |
 |----------------|-------------|-----------------|-------------------|-------------------------------------|
@@ -88,3 +89,14 @@ JOIN targets_db.monthly_target_trips mt
 ON ct.city_id = mt.city_id
 AND ct.month = mt.month'''
 </pre>
+**Sample Report**
+| City Name      | Month Name | Actual Trips | Target Trips | Performance Status | Percent Difference |
+|----------------|------------|--------------|--------------|--------------------|---------------------|
+| Visakhapatnam  | January    | 3,100        | 4,500        | Below Target       | -31.1%              |
+| Chandigarh     | January    | 4,991        | 7,000        | Below Target       | -28.7%              |
+| Surat          | January    | 7,006        | 9,000        | Below Target       | -22.2%              |
+| Vadodara       | January    | 4,061        | 6,000        | Below Target       | -32.3%              |
+| Mysore         | January    | 992          | 2,000        | Below Target       | -50.4%              |
+| Kochi          | January    | 4,154        | 7,500        | Below Target       | -44.6%              |
+| Indore         | January    | 4,898        | 7,000        | Below Target       | -30.0%              |
+| Jaipur         | January    | 8,897        | 13,000       | Below Target       | -31.6%              |
