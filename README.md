@@ -21,3 +21,9 @@ The Goodcabs management team aims to assess the company's performance across the
 * Trip Distribution
 
 * Targeting New Passengers
+
+# Business Request-1:
+** Report displaying Average fare per trip, Average fare per km, Percent contribution of each city
+
+1.city level fare and trip summary report.sql
+1.city level fare and trip summary report.csv
