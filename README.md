@@ -43,3 +43,15 @@ SELECT city_name,
        CONCAT(ROUND(total_trips*100/SUM(total_trips) OVER(),1),"%") AS percent_contribution_to_totaltrips
 FROM cte1'''
 </pre>
+| City Name      | Total Trips | Avg Fare per Km | Avg Fare per Trip | Percent Contribution to Total Trips |
+|----------------|-------------|-----------------|-------------------|-------------------------------------|
+| Visakhapatnam  | 28,366      | 12.53           | 282.67            | 6.7%                                |
+| Chandigarh     | 38,981      | 12.06           | 283.69            | 9.2%                                |
+| Surat          | 54,843      | 10.66           | 117.27            | 12.9%                               |
+| Vadodara       | 32,026      | 10.29           | 118.57            | 7.5%                                |
+| Mysore         | 16,238      | 15.14           | 249.71            | 3.8%                                |
+| Kochi          | 50,702      | 13.93           | 335.25            | 11.9%                               |
+| Indore         | 42,456      | 10.90           | 179.84            | 10.0%                               |
+| Jaipur         | 76,888      | 16.12           | 483.92            | 18.1%                               |
+| Coimbatore     | 21,104      | 11.15           | 166.98            | 5.0%                                |
+| Lucknow        | 64,299      | 11.76           | 147.18            | 15.1%                               |
