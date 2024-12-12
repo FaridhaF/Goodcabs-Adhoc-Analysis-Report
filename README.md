@@ -25,5 +25,5 @@ The Goodcabs management team aims to assess the company's performance across the
 # Business Request-1:
 ** Report displaying Average fare per trip, Average fare per km, Percent contribution of each city
 
-./1.city level fare and trip summary report.sql
+[./1.city level fare and trip summary report.sql](https://github.com/FaridhaF/Goodcabs-Adhoc-Analysis-Report/blob/main/1.city%20level%20fare%20and%20trip%20summary%20report.sql)
 ./1.city level fare and trip summary report.csv
