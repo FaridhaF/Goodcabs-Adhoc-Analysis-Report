@@ -24,7 +24,8 @@ The Goodcabs management team aims to assess the company's performance across the
 
 # Business Request-1:
 ** Report displaying Average fare per trip, Average fare per km, Percent contribution of each city
-
+** Query **
+<pre>
 '''WITH cte1 AS
 (SELECT city_name,
 	   COUNT(trip_id) AS total_trips,
@@ -41,3 +42,4 @@ SELECT city_name,
        ROUND((total_fare/total_trips),2) AS avg_fare_per_trip,
        CONCAT(ROUND(total_trips*100/SUM(total_trips) OVER(),1),"%") AS percent_contribution_to_totaltrips
 FROM cte1'''
+</pre>
