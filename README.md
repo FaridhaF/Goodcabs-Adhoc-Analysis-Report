@@ -61,6 +61,7 @@ FROM cte1'''
 # Business Request-2: Monthly City Level Target Performance Report
 
 **Query
+<pre>
 '''with cte1 AS
 (SELECT c.city_id,
 	    city_name,
@@ -86,3 +87,4 @@ FROM cte1 ct
 JOIN targets_db.monthly_target_trips mt 
 ON ct.city_id = mt.city_id
 AND ct.month = mt.month'''
+</pre>
