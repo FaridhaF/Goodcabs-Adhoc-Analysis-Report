@@ -15,6 +15,3 @@ SELECT city_name,
        CONCAT(ROUND(total_trips*100/SUM(total_trips) OVER(),1),"%") AS percent_contribution_to_totaltrips
 FROM cte1
 
-
-https://github.com/FaridhaF/Goodcabs-Adhoc-Analysis-Report/blob/main/1.%20city%20level%20fare%20and%20trip%20summary%20report.csv
-
