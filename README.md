@@ -23,8 +23,8 @@ The Goodcabs management team aims to assess the company's performance across the
 * Targeting New Passengers
 
 # Business Request-1:
-** Report displaying Average fare per trip, Average fare per km, Percent contribution of each city **
-** Query **
+**Report displaying Average fare per trip, Average fare per km, Percent contribution of each city**
+**Query**
 <pre>
 '''WITH cte1 AS
 (SELECT city_name,
@@ -56,4 +56,4 @@ FROM cte1'''
 | Coimbatore     | 21,104      | 11.15           | 166.98            | 5.0%                                |
 | Lucknow        | 64,299      | 11.76           | 147.18            | 15.1%                               |
 
-** the above result helps in accessing trip volume, pricing efficiency and each city'c contribution to the overall trip count **
+**The above result helps in accessing trip volume, pricing efficiency and each city'c contribution to the overall trip count**
