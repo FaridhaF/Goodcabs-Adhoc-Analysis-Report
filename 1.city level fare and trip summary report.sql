@@ -1,4 +1,5 @@
-WITH cte1 AS
+**SQL Query Block**
+"""WITH cte1 AS
 (SELECT city_name,
 	   COUNT(trip_id) AS total_trips,
        SUM(distance_travelled_km) AS total_distance,
@@ -13,4 +14,7 @@ SELECT city_name,
        ROUND((total_fare/total_distance),2) AS avg_fare_per_km,
        ROUND((total_fare/total_trips),2) AS avg_fare_per_trip,
        CONCAT(ROUND(total_trips*100/SUM(total_trips) OVER(),1),"%") AS percent_contribution_to_totaltrips
-FROM cte1
+FROM cte1"""
+
+**Attach CSV File**:
+   - The `[Link](./query_result.csv)`
