@@ -205,3 +205,21 @@ FROM ranked_revenue
 WHERE rank_num=1'''
 </pre>
 **Report**
+| City Name      | Highest Revenue Month | Revenue    | Percentage Contribution |
+|----------------|-----------------------|------------|-------------------------|
+| Chandigarh     | February              | 2,108,290  | 19.1%                   |
+| Coimbatore     | April                 | 612,431    | 17.4%                   |
+| Indore         | May                   | 1,380,996  | 18.1%                   |
+| Jaipur         | February              | 7,747,202  | 20.8%                   |
+| Kochi          | May                   | 3,333,746  | 19.6%                   |
+| Lucknow        | February              | 1,777,269  | 18.8%                   |
+| Mysore         | May                   | 745,170    | 18.4%                   |
+| Surat          | April                 | 1,154,909  | 18.0%                   |
+| Vadodara       | April                 | 706,250    | 18.6%                   |
+| Visakhapatnam  | April                 | 1,390,682  | 17.3%                   |
+
+# Business Request-6: Repeat Passenger Rate Analysis
+**Query**
+<pre>
+	
+</pre>
