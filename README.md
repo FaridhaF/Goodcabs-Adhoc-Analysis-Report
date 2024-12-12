@@ -100,3 +100,5 @@ AND ct.month = mt.month'''
 | Kochi          | January    | 4,154        | 7,500        | Below Target       | -44.6%              |
 | Indore         | January    | 4,898        | 7,000        | Below Target       | -30.0%              |
 | Jaipur         | January    | 8,897        | 13,000       | Below Target       | -31.6%              |
+
+**Report Link** https://github.com/FaridhaF/Goodcabs-Adhoc-Analysis-Report/blob/main/2.%20monthly%20city%20level%20trips%20target%20performance%20report.csv
