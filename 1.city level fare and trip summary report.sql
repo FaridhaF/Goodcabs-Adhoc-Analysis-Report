@@ -17,4 +17,4 @@ SELECT city_name,
 FROM cte1"""
 
 **Attach CSV File**:
-   - 'https://github.com/FaridhaF/Goodcabs-Adhoc-Analysis-Report/blob/main/1.%20city%20level%20fare%20and%20trip%20summary%20report.csv'
+   -https://github.com/FaridhaF/Goodcabs-Adhoc-Analysis-Report/blob/main/1.%20city%20level%20fare%20and%20trip%20summary%20report.csv
