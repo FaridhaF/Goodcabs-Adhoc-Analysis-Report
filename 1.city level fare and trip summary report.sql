@@ -1,5 +1,4 @@
-**SQL Query Block**
-"""WITH cte1 AS
+WITH cte1 AS
 (SELECT city_name,
 	   COUNT(trip_id) AS total_trips,
        SUM(distance_travelled_km) AS total_distance,
@@ -14,7 +13,6 @@ SELECT city_name,
        ROUND((total_fare/total_distance),2) AS avg_fare_per_km,
        ROUND((total_fare/total_trips),2) AS avg_fare_per_trip,
        CONCAT(ROUND(total_trips*100/SUM(total_trips) OVER(),1),"%") AS percent_contribution_to_totaltrips
-FROM cte1"""
+FROM cte1
 
-**Attach CSV File**:
-   -https://github.com/FaridhaF/Goodcabs-Adhoc-Analysis-Report/blob/main/1.%20city%20level%20fare%20and%20trip%20summary%20report.csv
+
