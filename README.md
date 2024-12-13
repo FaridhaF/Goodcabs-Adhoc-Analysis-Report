@@ -2,9 +2,9 @@
 
 **Goodcabs: A Cab Service Company, has gained a strong foothold in the Indian market by focusing on Tier 2 cities. Unlike other cab service providers, Goodcabs is committed to:**
 
-Supporting local drivers, helping them make a sustainable living in their hometowns.
+-Supporting local drivers, helping them make a sustainable living in their hometowns.
 
-Ensuring excellent service to passengers.
+-Ensuring excellent service to passengers.
 
 **With operations in ten Tier 2 cities across India, Goodcabs has set ambitious performance targets for 2024 to drive growth and improve passenger satisfaction.**
 
@@ -253,5 +253,5 @@ FROM monthly_repeat_passengers'''
 | Coimbatore     | April     | 1,722            | 480               | 27.9%                         | 4.3%                       |
 | Coimbatore     | March     | 1,965            | 427               | 21.7%                         | 3.9%                       |
 
-**Reprt Link** 
+**Report Link** 
 https://github.com/FaridhaF/Goodcabs-Adhoc-Analysis-Report/blob/main/6.repeat%20passenger%20rate%20analysis.csv
