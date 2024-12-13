@@ -22,7 +22,7 @@ The Goodcabs management team aims to assess the company's performance across the
 
 * Targeting New Passengers
 
-# Business Request-1: City-Level Farev and Trip Summary Report
+# Business Request-1: City-Level Fare and Trip Summary Report
 
 **Query**
 <pre>
